@@ -169,47 +169,60 @@ box-shadow:
 
 }
 
-.galeria-certificados{
+.lista-certificados{
 
 display:grid;
 
 grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
 
-gap:30px;
+gap:25px;
 
 margin-top:40px;
 
 }
 
-.galeria-certificados a{
+.cert-card{
+
+background:#141432;
+
+padding:20px;
+
+border-radius:10px;
+
+border:1px solid #7b00ff;
 
 text-decoration:none;
 
 color:white;
 
-text-align:center;
-
-}
-
-.galeria-certificados img{
-
-width:100%;
-
-border-radius:10px;
-
-border:2px solid #7b00ff;
-
 transition:0.3s;
 
 }
 
-.galeria-certificados img:hover{
+.cert-card:hover{
 
-transform:scale(1.05);
+transform:translateY(-5px);
 
 box-shadow:
+
 0 0 15px #ff2bd6,
 0 0 25px #7b00ff;
+
+}
+
+.cert-card h3{
+
+margin:0;
+
+color:#ff2bd6;
+
+}
+
+.cert-card p{
+
+margin-top:8px;
+
+color:#cfa6ff;
 
 }
 
@@ -268,3 +281,4 @@ section p + p{
 	margin-top:1rem;
 
 }
+
