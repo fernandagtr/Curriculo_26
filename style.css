@@ -169,7 +169,7 @@ box-shadow:
 
 }
 
-.lista-certificados{
+.certificados li{
 
 display:grid;
 
@@ -281,4 +281,5 @@ section p + p{
 	margin-top:1rem;
 
 }
+
 
