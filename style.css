@@ -1,4 +1,4 @@
-body{
+ body{
 
 background: linear-gradient(180deg,#0a0015,#000);
 
@@ -169,24 +169,21 @@ box-shadow:
 
 }
 
-.certificados li{
+.certificados{
 
 display:flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 20px
+gap:20px;
+flex-wrap:wrap;
 
 }
 
-.cert-card{
+.card{
 
 background:#141432;
 
 padding:20px;
 
-border-radius:8px;
-
-border:1px solid #7b00ff;
+border-radius:10px;
 
 text-decoration:none;
 
@@ -194,90 +191,30 @@ color:white;
 
 transition:0.3s;
 
+border:1px solid #7b00ff;
+
 }
 
-.cert-card:hover{
+.card:hover{
 
 transform:translateY(-5px);
 
-box-shadow:
-
-0 0 15px #ff2bd6,
-0 0 25px #7b00ff;
-
-}
-
-.cert-card h3{
-
-margin:0;
-
-color:#ff2bd6;
-
-}
-
-.cert-card p{
-
-margin-top:8px;
-
-color:#cfa6ff;
-
-}
-
-.botao-voltar{
-
-display:inline-block;
-
-margin-top:40px;
-
-padding:12px 20px;
-
-background:linear-gradient(45deg,#ff2bd6,#7b00ff);
-
-border-radius:8px;
-
-text-decoration:none;
-
-color:white;
-
-}
-
-.texto-cert{
-
-color:#cfa6ff;
-
-margin-top:10px;
+box-shadow:0 0 20px #7b00ff;
 
 }
 
 .voltar{
 
 display:inline-block;
-
 margin-top:30px;
-
-padding:10px 20px;
-
-background:linear-gradient(45deg,#ff00cc,#7b00ff);
-
-color:white;
 
 text-decoration:none;
 
-border-radius:8px;
+color:#ff2bd6;
 
 }
 
-/* Espaçamento entre parágrafos nas seções */
-section p{
-	margin:0 0 1rem 0;
-	line-height:1.6;
-}
 
-/* Espaço extra entre parágrafos consecutivos */
-section p + p{
-	margin-top:1rem;
-
-}
 
 
 
