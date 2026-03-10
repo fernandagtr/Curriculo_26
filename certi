@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Certificados | Fernanda Oliveira</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Certificados</h1>
+
+
+<p>Clique em uma aba para visualizar o certificado; ou abra em nova aba.</p>
+
+<div class="tabs">
+	<div class="tab-buttons">
+		<button class="tab-btn active" data-src="certificados.jpg/cert1.webp">Renapsi - Aprendizagem</button>
+		<button class="tab-btn" data-src="certificados.jpg/cert2.webp">Análise de Dados - Vivae</button>
+		<button class="tab-btn" data-src="certificados.jpg/cert3.webp">Segurança da Informação STF</button>
+		<button class="tab-btn" data-src="certificados.jpg/cert4.webp">Proteção de Dados Pessoais - OAB</button>
+		<button class="tab-btn" data-src="certificados.jpg/cert5.webp">Conceitos da LGPD - OAB</button>
+	</div>
+
+	<div class="cert-frame">
+		<img id="certFrame" src="certificados.jpg/cert1.webp" alt="Visualizador de Certificado" />
+	</div>
+
+	<p class="cert-links">
+		<a id="openNewTab" href="certificados.jpg/cert1.webp" target="_blank">Abrir em nova aba</a>
+	</p>
+
+</div>
+
+<a class="voltar" href="index.html">⬅ Voltar ao portfólio</a>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
